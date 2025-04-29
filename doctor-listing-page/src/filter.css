@@ -1,0 +1,41 @@
+.filter-panel {
+  display: flex;
+  gap: 2rem;
+  background: #fff;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+  align-items: flex-start;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.filter-left {
+  width: 250px;
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 1rem;
+  border-right: 1px solid #eee;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+.app.dark .filter-panel {
+  background-color: #1e293b;
+  color: #f8fafc;
+}
+
+.app.dark .filter-panel input[type="checkbox"] {
+  accent-color: #f8fafc;
+}
+
+.app.dark .filter-panel label {
+  color: #f8fafc;
+}

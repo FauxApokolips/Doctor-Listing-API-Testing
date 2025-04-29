@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-suggestions {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+.search-suggestions div {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.search-suggestions div:hover {
+  background-color: #f0f0f0;
+}
+
+.app {
+  background-color: #f9fafb;
+  color: #111827;
+  transition: all 0.3s ease;
+}
+
+.app.dark {
+  background-color: #111827;
+  color: #f3f4f6;
+}
+/* Card styles */
+.doctor-card {
+  color: #1f2937;
+}

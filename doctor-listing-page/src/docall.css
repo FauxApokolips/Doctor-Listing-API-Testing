@@ -1,0 +1,110 @@
+.doctor-details-modal {
+    position: fixed;
+    top: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 90%;
+    max-width: 600px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .doctor-details-modal h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #1e293b;
+  }
+  
+  .doctor-details-modal img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .doctor-details-modal p {
+    margin: 0.4rem 0;
+    font-size: 0.95rem;
+  }
+  
+  .doctor-details-modal strong {
+    font-weight: 600;
+    color: #1f2937;
+  }
+  
+  .close-btn {
+    float: right;
+    background-color: #e11d48;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .close-btn:hover {
+    background-color: #be123c;
+  }
+
+  .doctor-details-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    z-index: 999;
+  }
+  
+  .doctor-details-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px;
+    font-family: 'Segoe UI', sans-serif;
+    z-index: 1000;
+  }
+
+  .app.dark .doctor-details-modal {
+    background-color: #1e293b;
+    color: #f8fafc;
+  }
+  
+  /* Fix faded text inside paragraphs and spans */
+  .app.dark .doctor-details-modal p,
+  .app.dark .doctor-details-modal span {
+    color: #f8fafc;
+  }
+  
+  .app.dark .doctor-details-modal strong {
+    color: #f9fafb;
+  }
+
+  .doctor-details-modal h2,
+.doctor-details-modal h3 {
+  color: #1f2937; 
+}
+
+.app.dark .doctor-details-modal h2,
+.app.dark .doctor-details-modal h3 {
+  color: #f9fafb; 
+}
+
+  
+  
+  
